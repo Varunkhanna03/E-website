@@ -15,5 +15,6 @@ Footer with useful links
 # Technologies Used
 HTML5
 CSS3
+JavaScript
 
 By this I get to master my HTML CSS and JS and how can we use them for making optimum , responsive and user friendly websites
