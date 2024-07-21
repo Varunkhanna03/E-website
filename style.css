@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+IS:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+:root{
+    --main-bg-color:#007185;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    
+    background-color: var(--main-bg-color); 
+    font-family: "Playwrite IS", cursive; 
+}
+
+nav{
+    display: flex;
+
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    width: 7vw;
+    height: 7vh;
+    padding: 0px ;
+    animation-name: logoanimate;
+    animation-iteration-count: 1;
+    /* animation-delay: 4s; */
+    animation-duration: 4s;
+    animation-timing-function: ease;
+    animation-direction:reverse;
+}
+@keyframes logoanimate {
+    from{
+        width: 7vw;
+        height: 7vh;
+    }
+    to{
+        width: 100vw;
+        height: 100vh;
+    }
+    
+}
+
+nav ul{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 35px;
+}
+
+nav ul li{
+    list-style: none;
+    padding: 0px 23px;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    color: aqua;
+    font-weight: bold;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+}
+
+.search input{
+    width: 30vw;
+    height: 4vh;
+    border-radius: 8px;
+    margin: 0px 10px 0px 50px;
+}
+
+.search button:hover{
+    font-weight: bold;
+}
+
+.slider{
+    margin: auto;
+    width: 20vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.slider img{
+    width: 100vw;
+    height: 30vh;    
+}
+
+.container{
+    min-height: calc(100vh - 35px - 12vh);
+}
+.card{
+    max-width: 90vw;
+    margin: auto;
+    font-family: "Roboto Condensed", sans-serif;
+   
+}
+
+.cardss{
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: first baseline; */
+    overflow: scroll;
+}
+
+.card-item{
+    margin: 10px;
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    overflow: scroll;
+}
+
+.card-item img{
+    width: 13vw;
+}
+
+footer{
+    height: 8vh;
+    background-color: var(--main-bg-color);
+    color: white;
+    font-family: "Playwrite IS", cursive;
+} 

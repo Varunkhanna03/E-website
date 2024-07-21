@@ -1,0 +1,43 @@
+@media screen and (max-width: 1000px){
+    /* body{
+        background-color: red;
+    } */
+    nav{
+        flex-direction: column;
+    }  
+    .logo{
+        justify-content: center;
+        margin: 1vh 0px;
+    }
+    .logo img{
+        width: 27vw;
+        height: 6vh;
+    }
+    .slider img{
+        width: 204vw;
+        height: 19vh;
+    }
+    nav ul{
+        justify-content: center;
+    }
+    .search{
+        justify-content: center;
+    }
+    .search input{
+        margin: 4px 16px;
+    }
+    nav ul{
+        height: 30px;
+    }
+    .card{
+        overflow: scroll;
+    }
+
+}
+@media screen and(max-width: 400) {
+    .logo img{
+        height: 20px;
+        width: 70px;
+    }
+    
+}
